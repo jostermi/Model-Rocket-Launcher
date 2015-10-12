@@ -6,8 +6,8 @@
         <script type="text/javascript" src="/webiopi.js"></script>
         <script type="text/javascript">
         webiopi().ready(function() {
-                // Create a "Launch" labeled button for GPIO 17
-                var button = webiopi().createGPIOButton(17, "Launch");
+                // Create a "Launch" labeled button for GPIO 18
+                var button = webiopi().createGPIOButton(18, "Launch");
  
                 // Append button to HTML element with ID="controls" using jQuery
                 $("#controls").append(button);
@@ -29,11 +29,11 @@
                         
  }
  
-                #gpio17.LOW {
+                #gpio18.LOW {
                         background-color: Red;
                 }
  
-                #gpio17.HIGH {
+                #gpio18.HIGH {
                         background-color: Black;
                 }
         </style>
