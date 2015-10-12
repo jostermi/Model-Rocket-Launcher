@@ -2,7 +2,7 @@ import webiopi
  
 GPIO = webiopi.GPIO
  
-Rocket = 17 # GPIO pin using BCM numbering
+Rocket = 18 # GPIO pin using BCM numbering
  
  
 # setup function is automatically called at WebIOPi startup
